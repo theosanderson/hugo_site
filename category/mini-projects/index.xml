@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mini-projects | Theo Sanderson</title><link>/category/mini-projects/</link><atom:link href="/category/mini-projects/index.xml" rel="self" type="application/rss+xml"/><description>Mini-projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 25 Jan 2019 03:43:22 +0000</lastBuildDate><image><url>/images/icon_hu141e5746c4390abcaff97a6bd8371d9c_4466_512x512_fill_lanczos_center_2.png</url><title>Mini-projects</title><link>/category/mini-projects/</link></image><item><title>PubTweet</title><link>/blog/2019/01/25/pubtweet/</link><pubDate>Fri, 25 Jan 2019 03:43:22 +0000</pubDate><guid>/blog/2019/01/25/pubtweet/</guid><description>&lt;p>There are a lot of tweets to PubMed pages – not least from @MalariaPapers. I made &lt;a href="http://pubtweet.org/" target="_blank" rel="noopener">PubTweet&lt;/a> to enable these to have nice info-boxes, like this:&lt;/p>
+&lt;blockquote class="twitter-tweet" data-lang="en">
+&lt;p lang="en" dir="ltr">
+Evaluation of automated malaria diagnosis using the Sysmex XN-30 analyser in a clinical setting. &lt;a href="https://t.co/ZA0vb59FzQ">https://t.co/ZA0vb59FzQ&lt;/a>
+&lt;/p>
+&lt;p>
+&amp;mdash; Malaria Papers (@MalariaPapers) &lt;a href="https://twitter.com/MalariaPapers/status/1088393873339154433?ref_src=twsrc%5Etfw">January 24, 2019&lt;/a>
+&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
