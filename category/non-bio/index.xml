@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Non-bio | Theo Sanderson</title><link>/category/non-bio/</link><atom:link href="/category/non-bio/index.xml" rel="self" type="application/rss+xml"/><description>Non-bio</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 Nov 2018 14:51:57 +0000</lastBuildDate><image><url>/images/icon_hu141e5746c4390abcaff97a6bd8371d9c_4466_512x512_fill_lanczos_center_2.png</url><title>Non-bio</title><link>/category/non-bio/</link></image><item><title>BigGAN interpolations</title><link>/blog/2018/11/13/biggan-interpolations/</link><pubDate>Tue, 13 Nov 2018 14:51:57 +0000</pubDate><guid>/blog/2018/11/13/biggan-interpolations/</guid><description>&lt;p>The state of the art in image generation is &lt;a href="https://arxiv.org/abs/1809.11096" target="_blank" rel="noopener">BigGAN&lt;/a>.&lt;/p>
+&lt;p>Now, some &lt;a href="https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/biggan_generation_with_tf_hub.ipynb" target="_blank" rel="noopener">trained models&lt;/a> have been made available, including the capacity to interpolate between classes. I made &lt;a href="https://colab.research.google.com/drive/1MhfEAOBwhGu1A-F2NSVxGQrkJ4vk7w4V#scrollTo=dSAyfDfnVugs&amp;amp;forceEdit=true&amp;amp;offline=true&amp;amp;sandboxMode=true" target="_blank" rel="noopener">a colab&lt;/a> to easily create animations from these.&lt;/p>
+&lt;p>They are pretty fun.&lt;/p>
+&lt;p>&lt;img class="aligncenter size-full wp-image-263" src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/cat.gif" alt="" width="256" height="256" />&lt;/p>
+&lt;p>What is more, they make it clear that the latent space clearly captures very meaningful shared properties across classes. The poses of quite different animals are conserved, and “cat eyes” clearly map onto “dog eyes” during interpolation. These sort of properties suggest that the network ‘understands’ the scene it is generating.&lt;/p>
+&lt;p>Here are some more:&lt;/p>
+&lt;p>&lt;img class="aligncenter size-full wp-image-278" src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/cattohusky.gif" alt="" width="256" height="256" />&lt;/p>
+&lt;p>&lt;img class="aligncenter size-full wp-image-280" src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/leopard.gif" alt="" width="256" height="256" />&lt;/p>
+&lt;p>&lt;img class="aligncenter size-large wp-image-264" src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/goose2.gif" alt="" width="256" height="256" />&lt;/p>
+&lt;p>&lt;img class="aligncenter size-large wp-image-267" src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/dog.gif" alt="" width="256" height="256" />&lt;/p>
+&lt;p>&lt;img class="aligncenter" src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/panda2.gif" alt="" />&lt;/p>
+&lt;p>&lt;img class="aligncenter size-large wp-image-267" src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/tiger.gif" alt="" />&lt;/p>
+&lt;p>(this one moves in latent space as well as class space, hence the change of pose:)&lt;br>
+&lt;img class="aligncenter size-large wp-image-267" src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/bulldog.gif" alt="" />&lt;br>
+Churches to mosques:&lt;/p>
+&lt;center>
+&lt;img src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/mosque2.gif" alt="" width="256" height="256" /> &lt;img src="/post/archive_posts/old_wp_images/wp-content/uploads/2018/11/mosque.gif" alt="" width="256" height="256" />
+&lt;/center>
+&lt;center>
+&lt;/center>
+&lt;center>
+&lt;/center>
+&lt;center>
+&lt;/center></description></item><item><title>Petition grapher</title><link>/blog/2017/01/15/petition-grapher/</link><pubDate>Sun, 15 Jan 2017 23:45:58 +0000</pubDate><guid>/blog/2017/01/15/petition-grapher/</guid><description>&lt;p>The houses of parliament in the UK host a website of petitions. When a particularly popular petition is trending it can be addictive to refresh the page and watch the numbers going up behind your eyes. But of course what one really wants is a graph.&lt;/p>
+&lt;p>So I built &lt;a href="http://splasho.com/petitions/" target="_blank" rel="noopener">this tool&lt;/a> which regularly queries the parliament API and stores historical petition signatures in a database which it uses to draw graphs.&lt;/p></description></item></channel></rss>
