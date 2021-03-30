@@ -12,7 +12,7 @@
 &lt;p>There are lots of ways one could improve this, bringing in genome data and modelling uncertainty, but it provides a quick look at what&amp;rsquo;s happening.&lt;/p>
 &lt;hr>
 &lt;p>&lt;strong>Addendum&lt;/strong>&lt;/p>
-&lt;p>Despite the title, I decided to extend this a bit. Lets first do the same but take rolling averages of SGTF across 7-day intervals:&lt;/p>
+&lt;p>Despite the title, I decided to extend this a bit. Let&amp;rsquo;s first do as above but take rolling averages of SGTF across 7-day intervals:&lt;/p>
 &lt;div class="highlight">
 &lt;pre class='chroma'>&lt;code class='language-r' data-lang='r'>&lt;span class='kr'>&lt;a href='https://rdrr.io/r/base/library.html'>library&lt;/a>&lt;/span>&lt;span class='o'>(&lt;/span>&lt;span class='nv'>&lt;a href='http://tidyverse.tidyverse.org'>tidyverse&lt;/a>&lt;/span>&lt;span class='o'>)&lt;/span>
 &lt;span class='kr'>&lt;a href='https://rdrr.io/r/base/library.html'>library&lt;/a>&lt;/span>&lt;span class='o'>(&lt;/span>&lt;span class='nv'>&lt;a href='http://zoo.R-Forge.R-project.org/'>zoo&lt;/a>&lt;/span>&lt;span class='o'>)&lt;/span>
